@@ -6,7 +6,7 @@ public:
         for(int i = 0; i < arr.size(); i++)
         {
             int first = arr[i];
-            int sec = target-first;
+            int sec = target - first;
             if(m.find(sec) != m.end())
             {
                 ans.push_back(i);
